@@ -1,96 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script defer src="/_vercel/insights/script.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
-    />
-    <title>Vercel HTML Starter</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://cdn.glitch.global/7e351a6e-1e4c-44a9-ba28-5fce830837a3/icon%20(1).png?v=1720983165284" />
+
+    <title>Jonah | 🐷 | AI Discord bot</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="/style.css" />
     <meta
       name="description"
-      content="High-performance HTML based website template."
+      content="Jonah is an AI Discord Bot allowing you to talk to a bot!"
     />
+    <meta property="og:image" content="https://cdn.glitch.global/7e351a6e-1e4c-44a9-ba28-5fce830837a3/icon%20(1).png?v=1720983165284" />
   </head>
   <body>
-    <h1>Vercel HTML Starter</h1>
+    <section class="cta">
+      <span class="emoji">🐖</span>
+    <h1>
+      Jonah
+      </h1>
+    <p style="margin-bottom: 3px;">
+      Your AI Discord friend
+      </p>
+      <div class="icons">
+        <a href="https://github.com/MilesWK/Jonah/"><i class="fa-brands fa-github icon"></i></a>
+        <a href="https://github.com/MilesWK/Jonah/discussions"><i class="fa-solid fa-comment icon"></i></a>
+        <a href="https://discord.com/oauth2/authorize?client_id=1259943425948520598&permissions=8&integration_type=0&scope=bot"><i class="fa-brands fa-discord icon"></i></a>
+        <a href="https://github.com/MilesWK/Jonah/blob/main/LICENSE"><i class="fa-solid fa-scale-balanced icon"></i></a>
+      </div>
+      
+      <a href="https://discord.com/oauth2/authorize?client_id=1259943425948520598&permissions=8&response_type=code&redirect_uri=https%3A%2F%2Fjonah-bot.glitch.me%2Fredirect.html&integration_type=0&scope=bot+messages.read+applications.commands" class="btn" target="_blank">Add to your server</a>
+      <a href="#faq" class="bottom">-&gt;</a>
+    </section>
+    <section class="faq" id="faq">
+    <h2>
+      What is Jonah?
+      </h2>
+      <p>
+Jonah is a discord bot that allows users to talk to Jonah and get a responce from an AI 
+      simply by mentioning it in a server or talking to it in a DM.         
+      </p>
+      <h2>
+      What can Jonah do?
+    </h2>
     <p>
-      This template is a simple, but powerful single
-      <code>index.html</code> file deployed to
-      <a href="https://vercel.com">Vercel</a>. When your site is deployed, all
-      static assets (like HTML, JavaScript, CSS, images, and more) are deployed
-      globally to every
-      <a href="https://vercel.com/docs/concepts/edge-network/overview"
-        >Vercel Edge Network</a
-      >
-      region.
-    </p>
-    <h2>Simple, privacy-friendly analytics</h2>
-    <p>
-      Want to understand your visitor traffic? Vercel Analytics gives you
-      first-party, privacy-friendly traffic analytics for your HTML site. This
-      template is already configured using the following script:
-    </p>
-    <pre><code>&lt;script defer src="/_vercel/insights/script.js"&gt;&lt;/script&gt;</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/analytics">Vercel Analytics</a>.
-    </p>
-    <h2>Integrated with git</h2>
-    <p>
-      Deploying updates to your site is as simple as
-      <code>git push</code> thanks to Vercel's advanced
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-      Support for GitHub, GitLab, Bitbucket is zero-configuration, and with the
-      flexible Vercel CLI and API, you can integrate with any tool possible.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-    </p>
-    <h2>Fast <code>gzip</code> compression</h2>
-    <p>
-      To help ensure the smallest possible file sizes for your static assets,
-      the Vercel Edge Network compresses files by default using
-      <code>gzip</code>. You can also optionally use
-      <code>brotli</code> compressesion if you prefer.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/edge-network/compression"
-        >compression</a
-      >.
-    </p>
-    <h2>Advanced routing configuration</h2>
-    <p>
-      Vercel gives you a variety of ways to configure the routing of your
-      website. For example, adding redirects, rewrites, or headers to your page.
-      While you can use <code>vercel.json</code> to define these through JSON,
-      you can also express your routing configuration as code using
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
-    <p>
-      Middleware runs before the
-      <a href="https://vercel.com/docs/concepts/edge-network/caching"
-        >Vercel Edge Network Cache</a
-      >, so you can configure routing exactly as your application needs. For
-      example, this template uses <code>middleware.js</code> defined in the root
-      of the repository to add additional security headers to the site:
-    </p>
-    <pre><code>referrer-policy: origin-when-cross-origin
-strict-transport-security: max-age=31536000; includeSubDomains; preload
-x-content-type-options: nosniff
-x-dns-prefetch-control: on
-x-frame-options: DENY</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
+      Jonah can talk with you like a real person would and responding to whatever you say to it. It also has 5 commands which users can use in a server or direct message:</p>
+      <ul>
+        <li><code>/information</code>: gives details about the bot</li>
+        <li><code>/me</code>: gives details about the you such as when you created your profile.</li>
+        <li><code>/nuke [optional: amount]</code> (admin only): allows admins to remove all the comments or a certain about of comments from a channel in a server. </li>
+        <li><code>/dm</code> starts a DM with the user! </li>
+        <li><code>/joke</code> tells you a random joke! </li>
+      </ul>
+      <h2>
+        Terms &amp; Privacy
+      </h2>
+      <p>
+        By using Jonah, you agree to its <a href="/terms.html">Terms Of Service</a> and <a href="/privacy.html">Privacy Policy</a> - two small documents that basically say the developers can't be sued and we don't steal any information. Feel free to read them.</p>
+      <hr>
+      <p>
+        Homepage design by <a href="https://tiagorangel.com">Tiago Rangel</a>, bot by <a href="https://mileswk.glitch.me/" target="_blank">MilesWK</a>
+      </p>
+    </section>
+        <footer><div class="content">
+           <a href="https://jonah-bot.glitch.me/status.html" target="_blank">Status</a><div style="width:15px;"></div>
+          <a href="https://jonah-bot.glitch.me/info.html" target="_blank">Information and Supporters</a><br />
+            <a href="https://github.com/MilesWK/Jonah/blob/main/Jonah.py" target="_blank">The Program</a><br /><br />
+
+          </div></footer>
   </body>
 </html>
